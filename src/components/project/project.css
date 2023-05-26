@@ -1,0 +1,79 @@
+.project {
+  display: flex;
+  gap: 3rem;
+  overflow: hidden;
+  padding: 1rem;
+  position: relative;
+}
+
+@media (max-width: 550px) {
+  .project {
+    gap: 1.5rem;
+    flex-direction: column;
+    text-align: left;
+  }
+}
+
+.project:not(:last-child) {
+  margin-bottom: 4rem;
+}
+
+.project--image {
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  min-width: 150px;
+  min-height: 150px;
+  width: 150px;
+  border: none;
+}
+.project--image img {
+  width: 100%;
+}
+@media (max-width: 550px) {
+  .project--image {
+    margin: auto;
+  }
+}
+
+.project--info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 700px;
+  margin-top: -6px;
+  transition: 0.4s;
+}
+
+.project--info h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.project--buttons {
+  display: flex;
+  gap: 2rem;
+}
+@media (max-width: 550px) {
+  .project--buttons {
+    gap: 1rem;
+    margin: auto;
+    margin-top: 2rem;
+  }
+}
+.project--buttons button {
+  padding: 0.6rem 1rem;
+  font-weight: 900;
+  background-color: rgb(42, 42, 42);
+  color: white;
+}
+
+.hosted {
+  padding-block: 1rem;
+  font-weight: bold;
+  color: rgb(71, 215, 201);
+}
+.not-hosted {
+  padding-block: 2rem;
+  font-weight: bold;
+  color: rgb(210, 80, 115);
+}

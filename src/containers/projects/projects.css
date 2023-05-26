@@ -1,0 +1,36 @@
+.projects {
+  width: 80%;
+  background-color: var(--color-darkest);
+  color: white;
+  margin-left: auto;
+  margin-bottom: 8rem;
+  padding: 4rem;
+}
+@media (max-width: 776px) {
+  .projects {
+    width: 100%;
+    padding: 3rem;
+  }
+}
+
+.header-p {
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-left: -70%;
+  font-weight: bolder;
+  font-family: "Roboto Mono", monospace;
+}
+@media (max-width: 767px) {
+  .header-p {
+    margin-left: 0px;
+  }
+}
+
+.projects--title {
+  margin-block: 0rem 6rem;
+}
+@media (max-width: 767px) {
+  .projects--title {
+    margin-block: 1rem 4rem;
+  }
+}

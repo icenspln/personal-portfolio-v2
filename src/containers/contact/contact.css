@@ -1,0 +1,25 @@
+.contact {
+  font-weight: 500;
+}
+.socials {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-block: 0.5rem;
+}
+.socials svg {
+  margin-inline: 3px;
+}
+.email {
+  margin-block: 0 3rem;
+}
+.email a {
+  font-weight: bold;
+}
+.email label {
+  margin-right: 0.4rem;
+}
+.copy {
+  text-align: center;
+  margin: 2rem;
+}

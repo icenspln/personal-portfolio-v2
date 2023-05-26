@@ -1,0 +1,20 @@
+header {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+  font-weight: 600;
+  width: fit-content;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  margin-inline: auto;
+  margin-block: 3rem 6rem;
+}
+header::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 140%;
+  height: 1px;
+  background-color: var(--color-dark);
+}
