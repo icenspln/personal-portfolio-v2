@@ -1,10 +1,10 @@
 import "./home.css";
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
 
 function Home() {
   return (
     <>
-      <main className="home" id="home">
+      <main className="home">
         <div className="home--into">
           <div className="home--heading">
             <p>Hello</p>
@@ -17,8 +17,12 @@ function Home() {
             <div className="bold">
               <Typewriter
                 onInit={(typewriter) => {
-                  typewriter.typeString('Welcome to my PORTFOLIO').pauseFor(1000).start()
-                }} options={{ loop: true }}
+                  typewriter
+                    .typeString("Welcome to my PORTFOLIO")
+                    .pauseFor(1000)
+                    .start();
+                }}
+                options={{ loop: true }}
               />
             </div>
           </div>
@@ -33,5 +37,3 @@ function Home() {
 }
 
 export default Home;
-
-

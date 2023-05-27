@@ -19,7 +19,10 @@ function Navbar() {
             <a href="#contact">Contact</a>
           </li>
         </ul>
-        <a href="https://github.com/icenspln/personal-portfolio-v2" target="blank" >
+        <a
+          href="https://github.com/icenspln/personal-portfolio-v2"
+          target="blank"
+        >
           <BsGithub className="nav--icon" />
         </a>
       </nav>

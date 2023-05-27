@@ -1,9 +1,9 @@
 import "./header.css";
 
-function Header({ header }) {
+function Header({ header, id }) {
   return (
     <>
-      <header>&lt; {header} /&gt;</header>
+      <header id={id}>&lt; {header} /&gt;</header>
     </>
   );
 }
