@@ -1,7 +1,7 @@
 import "./contact.css";
 
 import { Header } from "../../components";
-import { BsInstagram, BsGithub } from "react-icons/bs";
+import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
 function Contact() {
   return (
     <>
@@ -16,12 +16,17 @@ function Contact() {
             <a href="https://github.com/icenspln" target="blank">
               <BsGithub />
             </a>
+            <a href="https://www.linkedin.com/in/d-yacine" target="blank">
+              <BsLinkedin />
+            </a>
           </div>
         </div>
         <div className="email">
           <label htmlFor="email">Emails</label>
           <br />
-          <a href="mailto:yacindjilali200@gmail.com">yacindjilali200@gmail.com</a>
+          <a href="mailto:yacindjilali200@gmail.com">
+            yacindjilali200@gmail.com
+          </a>
           <br />
         </div>
 
