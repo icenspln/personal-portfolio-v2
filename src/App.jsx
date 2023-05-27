@@ -6,8 +6,8 @@ import { Navbar } from "./components";
 function App() {
   return (
     <div id="home">
-      <Navbar />
       <main className="container">
+        <Navbar />
         <Home />
         <About />
         <Projects />

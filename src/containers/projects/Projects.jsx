@@ -7,9 +7,9 @@ import web from "../../data/web";
 function Projects() {
   return (
     <>
-      <Header header="Projects" />
+      <Header header="Projects" id="projects" />
       <p className="header-p">Projects i have worked on...</p>
-      <main className="projects" id="projects">
+      <main className="projects">
         <div className="projects--web">
           {web.map((item, index) => (
             <Project

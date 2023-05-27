@@ -5,8 +5,8 @@ import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
 function Contact() {
   return (
     <>
-      <Header header="Contact" />
-      <main className="contact" id="contact">
+      <Header header="Contact" id="contact" />
+      <main className="contact">
         <div className="socials">
           <p>Lets get in touch </p>
           <div>
