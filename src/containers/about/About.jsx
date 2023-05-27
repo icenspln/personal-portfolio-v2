@@ -26,6 +26,7 @@ function About() {
               <img src="/tech-stack/css.svg" alt="CSS" />
               <img src="/tech-stack/js.svg" alt="JS" />
               <img src="/tech-stack/react.svg" alt="REACT" />
+              <img src="/tech-stack/tailwind.svg" alt="tailwind" />
             </div>
           </div>
         </div>
