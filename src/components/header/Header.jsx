@@ -3,7 +3,7 @@ import "./header.css";
 function Header({ header }) {
   return (
     <>
-      <header>{header}</header>
+      <header>&lt; {header} /&gt;</header>
     </>
   );
 }

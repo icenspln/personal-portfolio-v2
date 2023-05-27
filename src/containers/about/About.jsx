@@ -4,7 +4,7 @@ import { Header } from "../../components";
 function About() {
   return (
     <>
-      <Header header="About" />
+      <Header header="About Me" />
       <main id="about">
         <div className="about">
           <div className="about--info">

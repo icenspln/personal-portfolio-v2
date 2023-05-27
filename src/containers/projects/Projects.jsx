@@ -7,7 +7,7 @@ import web from "../../data/web";
 function Projects() {
   return (
     <>
-      <Header header="PROJECTS" />
+      <Header header="Projects" />
       <p className="header-p">Projects i have worked on...</p>
       <main className="projects" id="projects">
         <div className="projects--web">
