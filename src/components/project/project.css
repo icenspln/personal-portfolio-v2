@@ -10,7 +10,7 @@
   .project {
     gap: 1.5rem;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
   }
 }
 
