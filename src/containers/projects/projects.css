@@ -1,15 +1,14 @@
 .projects {
-  width: 80%;
   background-color: var(--color-darkest);
   color: white;
-  margin-left: auto;
   margin-bottom: 8rem;
   padding: 4rem;
+  font-family: "Roboto Mono", monospace;
 }
 @media (max-width: 776px) {
   .projects {
     width: 100%;
-    padding: 3rem;
+    padding-inline: 0rem;
   }
 }
 
