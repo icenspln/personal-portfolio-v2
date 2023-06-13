@@ -1,7 +1,7 @@
 import "./contact.css";
 
 import { Header } from "../../components";
-import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 function Contact() {
   return (
     <>
@@ -10,9 +10,6 @@ function Contact() {
         <div className="socials">
           <p>Lets get in touch </p>
           <div>
-            <a href="https://www.instagram.com/niss_ay_e" target="blank">
-              <BsInstagram />
-            </a>
             <a href="https://github.com/icenspln" target="blank">
               <BsGithub />
             </a>
@@ -22,7 +19,7 @@ function Contact() {
           </div>
         </div>
         <div className="email">
-          <label htmlFor="email">Emails</label>
+          <label htmlFor="email">Email</label>
           <br />
           <a href="mailto:yacindjilali200@gmail.com">
             yacindjilali200@gmail.com
